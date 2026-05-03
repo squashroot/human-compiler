@@ -1,6 +1,6 @@
 #################################################################
 # basic_64bit.s: sample program to mimic compilation of basic.c #
-# and I am probably very wrong...			                          #
+# and I am probably very wrong...			                    #
 #################################################################
 
 .section .data
