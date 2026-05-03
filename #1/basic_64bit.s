@@ -16,7 +16,7 @@ _start:
 	movq $1, %rax			              # write(fd, addr, length)
 	movq $1, %rdi		
 	movq $output, %rsi	
-  movq $output_length, %rdx	
+  	movq $output_length, %rdx	
 	syscall
 
 	movq $60, %rax			            # exit(0)
